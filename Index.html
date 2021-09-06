@@ -1,0 +1,70 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Index</title>
+  </head>
+
+  <body style="background-color: lightgray;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand bg-info p-2 rounded text-white fw-bold" href="#">Latitude</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Plots
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./visualizations/Temp.html">Max Temperature</a></li>
+                <li><a class="dropdown-item" href="./visualizations/Humidity">Humidity</a></li>
+                <li><a class="dropdown-item" href="./visualizations/Cloud.html">Cloudiness</a></li>
+                <li><a class="dropdown-item" href="./visualizations/Wind.html">Wind Speed</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./visualizations/Comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./visualizations/Data.html">Data</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <div class="container">
+      <div class="row mt-4">
+        <div class="col-md-7 me-4 bg-white">
+          <h1 class="text-info">Summary: Latitude vs. X</h1>
+          <hr>
+          <img src="./Instructions/Resources/assets/images/Fig1.png" alt="fig1" class="w-50 p-1 float-start">
+          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. to accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+          <p>Possimus quo vitae ab ratione natus necessitatibus ipsa assumenda, unde eveniet eos voluptatum, accusantium reprehenderit enim aut quaerat dolor consequuntur ad hic? Recusandae dicta impedit quia quos nihil exercitationem culpa aliquid commodi sit saepe? Ullam odit aperiam enim itaque consequatur illo dolorum magni delectus dicta. Sint nesciunt animi doloribus veritatis?</p>
+        </div>
+
+        <div class="col-md-4 ms-4 bg-white">
+          <h1 class="text-info">Visualizations</h1>
+          <hr>
+          <div class="row"><a href="./visualizations/Temp.html" class="col-md-6"><img src="./Instructions/Resources/assets/images/Fig1.png" alt="" class="w-100"></a><a href="./visualizations/Cloud.html" class="col-md-6"><img src="./Instructions/Resources/assets/images/Fig2.png" alt="" class="w-100"></a><a href="./visualizations/Humidity.html" class="col-md-6"><img src="./Instructions/Resources/assets/images/Fig3.png" alt="" class="w-100"></a><a href="./visualizations/Wind.html" class="col-md-6"><img src="./Instructions/Resources/assets/images/Fig4.png" alt="" class="w-100"></a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"></script>
+  </body>
+
+  </html>
